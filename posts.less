@@ -1,0 +1,235 @@
+@font-family1: Montserrat;
+@font-family2: Raleway;
+@font-size1: 14px;
+@font-size2: 36px;
+@font-size3: 16px;
+@font-size4: 22px;
+@font-size5: 30px;
+@font-size6: 28px;
+@font-size7: 18px;
+@font-size8: 20px;
+@font-size9: 24px;
+@font-size10: 34px;
+@font-weight1: 400;
+@font-weight2: 300;
+@font-weight3: 500;
+@font-weight4: 700;
+@font-weight5: 600;
+@color1:  #ffffff;  /* цвет текста*/
+@color2:  #555555;
+@color3:  #8c8c8c;
+@color4:  #c7b299;
+@background-color1:  #fbfaf8;
+@background-color2:  #FCFCFC;
+@background-color3:  #998675;/* кнопка */
+@background-color4:  #362f2d;
+@sep-color: #252525;
+@30-color:#363636;
+@footer-up:#191919;
+@footer:#111111;
+.foto{
+	width: 1200px;
+	display: flex;
+	flex-direction:column;
+}
+.cont_post{
+	width: 1200px;
+	display: flex;
+	flex-direction:row;
+}
+.foto-figure{
+	width: 370px;
+}
+.foto-figure:hover{
+	background-color:  #362f2d;
+	color:  #c7b299;
+}
+.fp{
+	width:370px;
+	height: 220px;
+	position: relative;
+}
+.fp:hover{
+	opacity: 0.5;
+}
+.foot{
+	background-image: url('img/foot.png');
+	display: flex;
+	flex-direction:row;
+
+}
+.nout{
+	background-image: url('img/nout.png');
+}
+.ship{
+	background-image: url('img/ship.png');
+}
+.recent{
+	font-family: @font-family2;
+	color: @color2;
+	font-size:@font-size5;
+	font-weight:@font-weight5;
+	text-align: center;
+	display: block;
+	margin: 30px 0 0 0;
+}
+.many_word{
+	width: 757px;
+	font-family: @font-family2;
+	color:  @color3;
+	font-size: @font-size3;
+	font-weight: @font-weight2;
+	line-height: 28px;
+	text-align: center;
+	display: block;
+	margin: 30px 0 50px 220px;
+}
+.head_post{
+	font-family:@font-family2;
+	color: @color2;
+	font-size: @font-size8;
+	font-weight: @font-weight3;
+	text-align: left;
+	display: block;
+	margin: 15px 0 0 20px;
+}
+.paragraf_post{
+	font-family: @font-family1;
+	color:  @color3;
+	font-size: @font-size1;
+	font-weight:@font-weight2;
+	line-height: 22px;
+	text-align: left;
+	display: block;
+	margin: 15px 0 20px 20px;
+}
+.posts{
+	font-family: @font-family1;
+	color: @color4;
+	font-size: @font-size1;
+	font-weight:@font-weight2;
+	line-height: 20px;
+	text-align: left;
+	margin-left: 20px;
+	text-decoration: none;
+}
+.furo{
+	position: absolute;
+	top:197px;
+	left: 136px;
+	display: flex;
+	width: 100px;
+}
+.cont_angle{
+	width:45px;
+	display: flex;
+	margin-top:40px;
+}
+.ang{
+	display: block;
+	width: 21px;
+	height: 21px;
+}
+.lef{
+ 	background-image: url('img/leftpo.png');
+}
+.lef:hover{
+ 	opacity: 0.5;
+}
+.righ{
+	background-image: url('img/rightpo.png');
+}
+.righ:hover{
+ 	opacity: 0.5;
+}
+.calend{
+	position: absolute;
+	top:15px;
+	left: 15px;
+	width: 50px;
+	height: 60px;
+	display: flex;
+	flex-direction:column;
+}
+.count{
+	display: block;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	background-color: @30-color;
+	width: 50px;
+	height: 35px;
+	font-family: @font-family1;
+	color:  @color1;
+	font-size:@font-size9;
+	font-weight: @font-weight2;
+	line-height: 20px;
+	text-align: center;
+	padding-top: 10px;
+
+}
+.count:hover{
+	background-color: @color4;
+}
+.sent{
+	display: block;
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+	background-color:  @sep-color;
+	width: 50px;
+	height: 25px;
+	font-family: Roboto;
+	color:  @color1;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 20px;
+	text-align: center;
+}
+.sent:hover{
+	background-color: darken(@color4,20%);
+}
+.partners{
+	background-image: url('img/wild.png');
+	width: 1920px;
+	height: 489px;
+	margin-top: 70px;
+	display: flex;
+	justify-content:center;
+
+}
+.cont_part{
+	display: flex;
+	justify-content:space-around;
+	width: 1400px;
+	margin-top: 170px;
+}
+.zx{
+	background-image: url('img/barber.png');
+	width: 210px;
+	height: 127px;
+	background-size: 100%;
+}
+.xc{
+	background-image: url('img/deli.png');
+	background-size: 100%;
+	width: 210px;
+	height: 210px;
+}
+.cv{
+	background-image: url('img/disa.png');
+	background-size: 100%;
+	width: 210px;
+	height: 130px;
+}
+.vb{
+	background-image: url('img/royal.png');
+	background-size: 100%;
+	width: 210px;
+	height: 164px;
+}
+.zx:hover,
+.xc:hover,
+.cv:hover,
+.vb:hover{
+	opacity: 0.5;
+	cursor: pointer;
+}

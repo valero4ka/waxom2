@@ -1,0 +1,237 @@
+@font-family1: Montserrat;
+@font-family2: Raleway;
+@font-size1: 14px;
+@font-size2: 36px;
+@font-size3: 16px;
+@font-size4: 22px;
+@font-size5: 30px;
+@font-size6: 28px;
+@font-size7: 18px;
+@font-size8: 20px;
+@font-size9: 24px;
+@font-size10: 34px;
+@font-weight1: 400;
+@font-weight2: 300;
+@font-weight3: 500;
+@font-weight4: 700;
+@font-weight5: 600;
+@color1:  #ffffff;  /* цвет текста*/
+@color2:  #555555;
+@color3:  #8c8c8c;
+@color4:  #c7b299;
+@background-color1:  #fbfaf8;
+@background-color2:  #FCFCFC;
+@background-color3:  #998675;/* кнопка */
+@background-color4:  #362f2d;
+@sep-color: #252525;
+@30-color:#363636;
+@footer-up:#191919;
+@footer:#111111;
+.projects{
+	display: flex;
+	flex-direction:column;
+}
+.our_latest{
+	display: block;
+	font-family:@font-family2;
+	color:  @color2;
+	font-size: @font-size5;
+	font-weight:@font-weight5;
+	text-align: center;
+	margin-top: 70px;
+}
+.Investigationes{
+	display: block;
+	font-family:@font-family1;
+	color:  @color3;
+	font-size: @font-size3;
+	font-weight: @font-weight2;
+	line-height: 28px;
+	text-align: center;
+	width: 757px;
+}
+.cont_menu{
+	display: flex;
+	flex-direction:row;
+}
+.menu_proj{
+	border-radius: 3px;
+	height:auto;
+	font-family: @font-family1;
+	color:@color3;
+	font-size: @font-size1;
+	font-weight:@font-weight2;
+	line-height: 21px;
+	text-align: center;
+	list-style-type: none;
+	margin:10px;
+}
+.foto_proj{
+	width: 1200px;
+	height: 600px;
+	display: flex;
+	justify-content:space-between;
+	flex-wrap: wrap;
+}
+.main-img{
+	width: 370px;
+	background-color:  #fbfaf8;
+	position: relative;
+	margin-top: 14px;
+}
+.main-img:hover{
+	background-color:  #362f2d;
+}
+.butt_proj{
+	border-radius: 3px;
+	background-color:  @background-color3;
+	width: 170px;
+	height: 50px;
+	font-family: @font-family2;
+	color:  @color1;
+	font-size: @font-size1;
+	font-weight: @font-weight4;
+	line-height: 23px;
+	text-align: center;
+	text-decoration: none;
+	display: flex;
+	margin-top: 50px;
+}
+.butt_proj:hover{
+	background-color:darken(@background-color3,30%);
+}
+.lm{
+	margin: auto;
+}
+.menu_pr_ss{
+	display: block;
+	text-decoration: none;
+	color: @color3;
+	padding: 5px 15px;
+	border-radius: 3px;
+	font-family: @font-family1;
+	border:1px solid @color3; 
+}
+.menu_pr_ss:hover{
+	background-color: @background-color3;
+	color:@color1;
+	}
+.foto-main{
+	width: 370px;
+	height: 237px;
+	
+}
+.foto-main:hover{
+	opacity: 0.7;
+	background-color:  #362f2d;
+}
+.as{
+	background-image: url('img/phonehand.png');
+	background-size: 100%;
+}
+.ad{
+	background-image: url('img/rock.png');
+	background-size: 100%;
+}
+.af{
+	background-image: url('img/book.png');
+	background-size: 100%;
+}
+.ag{
+	background-image: url('img/rockbird.png');
+	background-size: 100%;
+}
+.ah{
+	background-image: url('img/book1.png');
+	background-size: 100%;
+}
+.aj{
+	background-image: url('img/rock1.png');
+	background-size: 100%;
+}
+/*.triangle{
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 15px 10px 15px;
+	border-color: transparent transparent  #fbfaf8 transparent;
+	position: absolute;
+	top:227.1px;
+	left:21.4px;
+}*/
+.headpost{
+	display: block;
+	font-family: @font-family2;
+	color:  #c7b29a;
+	font-size:@font-size8;
+	font-weight:@font-weight3;
+	text-align: left;
+	margin: 30px 0 0 29px;
+}
+.parapost{
+	display: block;
+	font-family: @font-family1;
+	color:  #d1d1d1;
+	font-size:@font-size1;
+	font-weight: @font-weight2;
+	line-height: 20px;
+	text-align: left;
+	margin: 0 0 30px 29px;
+}
+.vid-ok{
+	width: 1920px;
+	height: 705px;
+	background-image: url('img/handpen.png');
+	background-size: 100%;
+	margin-top: 300px;
+	position: relative;
+}
+.vpr{
+	font-family: @font-family2;
+	color: @color1;
+	font-size:@font-size5;
+	font-weight:@font-weight3;
+	text-align: center;
+	position: absolute;
+	top:360px;
+	left:800px;
+}
+.lum{
+	font-family: @font-family1;
+	color:  @color1;
+	font-size: @font-size3;
+	font-weight: @font-weight2;
+	line-height: 28px;
+	text-align: center;
+	position: absolute;
+	top:420px;
+	left:708px;
+	width: 552px;
+}
+.round{
+	background-image: url('img/round.png');
+	width: 70px;
+	height: 70px;
+	position: absolute;
+	top:221px;
+	left:950px;
+}
+.circle{
+	background-image: url('img/circle.png');
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	top:207px;
+	left:936px;
+}
+.time{
+	font-family: @font-family1;
+	color:  @color4;
+	font-size:@font-size1;
+	font-weight:@font-weight1;
+	line-height: 24px;
+	text-align: center;
+	position: absolute;
+	top:550px;
+	left:950px;
+}

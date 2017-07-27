@@ -1,0 +1,212 @@
+@font-family1: Montserrat;
+@font-family2: Raleway;
+@font-size1: 14px;
+@font-size2: 36px;
+@font-size3: 16px;
+@font-size4: 22px;
+@font-size5: 30px;
+@font-size6: 28px;
+@font-size7: 18px;
+@font-size8: 20px;
+@font-size9: 24px;
+@font-size10: 34px;
+@font-weight1: 400;
+@font-weight2: 300;
+@font-weight3: 500;
+@font-weight4: 700;
+@font-weight5: 600;
+@color1:  #ffffff;  /* цвет текста*/
+@color2:  #555555;
+@color3:  #8c8c8c;
+@color4:  #c7b299;
+@background-color1:  #fbfaf8;
+@background-color2:  #FCFCFC;
+@background-color3:  #998675;/* кнопка */
+@background-color4:  #362f2d;
+@sep-color: #252525;
+@30-color:#363636;
+@footer-up:#191919;
+@footer:#111111;
+.footer-up{
+	background-color:@footer-up;
+	width: 1920px;
+	height: 508px;
+	display: flex;
+	justify-content:center;
+}
+.foot-cont{
+	display: flex;
+	justify-content:space-around;
+	width: 1600px;
+}
+.logo{
+	display: block;
+	width: 64px;
+	height: 56px;
+	position: absolute;
+	top:100px;
+	left:0;
+}
+.first_col{
+	width: 258px;
+	position: relative;
+	margin: 0;
+}
+.waxom_f{
+	font-family:@font-family2;
+	color:  @color1;
+	font-size:@font-size10;
+	font-weight:@font-weight1;
+	text-align: right;
+	text-decoration: none;
+	position: absolute;
+	top:104px;
+	left:59px;
+}
+.ipsum{
+	display: block;
+	position: absolute;
+	top:170px;
+	width: 258px;
+	height: 155px;
+	font-family:@font-family1;
+	color:  #545454;
+	font-size:@font-size1;
+	font-weight:@font-weight2;
+	line-height: 24px;
+	text-align: left;
+}
+.rmore{
+	display: block;
+	position: absolute;
+	top:340px;
+	text-decoration: none;
+	font-family: @font-family1;
+	color:  #d1d1d1;
+	font-size: @font-size1;
+	font-weight: @font-weight1;
+	line-height: 20px;
+	text-align: left;
+}
+.column{
+	width: 267px;
+	display: flex;
+	flex-direction:column;
+	justify-content:center;
+	margin: 0;
+}
+.date{
+	font-family:@font-family1 ;
+	color:  @30-color;
+	font-size: 12px;
+	font-weight: @font-weight2;
+	line-height: 20px;
+	text-align: left;
+}
+.pulp{
+	font-family: @font-family1;
+	color:  #545454;
+	font-size:@font-size1;
+	font-weight: @font-weight2;
+	line-height: 20px;
+	text-align: left;
+}
+.go-span{
+	font-family:@font-family2;
+	color:  @color1;
+	font-size: @font-size9;
+	font-weight: @font-weight4;
+	text-align: left;
+	display: block;
+}
+.go:not(:last-child){
+	border-bottom: 1px solid #545454;
+	margin: 20px 0 20px 0;
+
+}
+.twit{
+	font-family: @font-family1;
+	color:  #545454;
+	font-size:@font-size1;
+	font-weight: @font-weight2;
+	line-height: 20px;
+	text-align: left;
+}
+.ago{
+	font-family:@font-family1 ;
+	color:  @30-color;
+	font-size: 12px;
+	font-weight: @font-weight2;
+	line-height: 20px;
+	text-align: left;
+}
+.dribble_cont{
+	width: 270px;
+	height: 206px;
+	display: flex;
+	justify-content:space-between;
+	flex-wrap:wrap;
+}
+.go-img{
+	width: 130px;
+	height: 98px;
+}
+.qw{
+	background-image: url('img/two.png');
+}
+.qw:hover{
+	opacity: 0.5;
+}
+.we{
+	background-image: url('img/pack.png');
+}
+.we:hover{
+	opacity: 0.5;
+}
+.er{
+	background-image: url('img/fbook.png');
+}
+.er:hover{
+	opacity: 0.5;
+}
+.rt{
+	background-image: url('img/spr.png');
+}
+.rt:hover{
+	opacity: 0.5;
+}
+.date:hover,
+.ipsum:hover,
+.date:hover,
+.pulp:hover,
+.twit:hover,
+.ago:hover{
+	color:@color1;
+}
+footer{
+	background-color:  #111111;
+	width: 1920px;
+	height: 111px;
+}
+.footer1{
+	display: block;
+	float: right;
+	font-family: @font-family1;
+	color:  #545454;
+	font-size: 13px;
+	font-weight: 300;
+	line-height: 20px;
+	text-align: left;
+	padding: 40px 0 0 140px;
+}
+.footer2{
+	display: block;
+	float: left;
+	font-family: @font-family1;
+	color:  #545454;
+	font-size: 13px;
+	font-weight: 300;
+	line-height: 20px;
+	text-align: left;
+	padding: 0 40px 140px 0;
+}
